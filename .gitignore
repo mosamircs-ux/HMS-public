@@ -1,0 +1,41 @@
+# Cache
+.cache/
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+# Logs
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+*.log
+
+# Session files
+application/sessions/*
+
+# User uploads
+uploads/*
+!uploads/index.html
+
+# Environment
+.env
+.env.*
+
+# Database
+*.sql
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# System
+.DS_Store
+Thumbs.db
+
+# Backup
+backup/*
